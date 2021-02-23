@@ -1,0 +1,46 @@
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 400px;
+    box-shadow: 2px 2px 3px rgba(0,0,0,0.2);
+}
+body{
+    background-color:rgb(238, 231, 132);
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.desc{
+    width: 100%;
+    text-align: center;
+}
+.desc h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-top: 5px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.desc p{
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 500;
+}
+.grid img{
+    width: 100px;
+    height: 100px;
+}
+.title{
+    width: 520px;
+}
+.title h3, .title h3 span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 26px;
+    margin: 20px;
+}
